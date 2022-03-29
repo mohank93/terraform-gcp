@@ -8,35 +8,34 @@ variable "gconfig" {
     region = string
     zone = list(any)
 #    vpc = string
-#    ami = string
+    image = string
 #    keyname = string
 #    rhn-user = string
 #    rhn-pass = string
 #    subnet = string
     subnets_cidr = list(any)
 #    docker-token = string
-#    ssh-user = string
-#    cluster = string
+    ssh-user = string
+#    cluster = string#
   })
-  default = {
-    project_name = "project-flexydial-"   // Mention project name of your choice.
-   # billing_account = ""   // Mention alphanumeric ID of the billing account this project belongs to.
-   # org_id = ""            // Mention numeric ID of the organization this project belongs to.
+   default = {
+    project_name = "evident-ethos-345407"   // Mention project name of your choice.
+#    billing_account = ""   // Mention alphanumeric ID of the billing account this project belongs to.
+#    org_id = ""            // Mention numeric ID of the organization this project belongs to.
     region = "asia-south1"
     zone = ["asia-south1-a", "asia-south1-b,asia-south1-c"]
     #vpc = "vpc-053b4780392581bfd"
-    #ami = "ami-0d824fc74fe09c140"
+    image = "debian-cloud/debian-11"
     #keyname = "flexy"
     #rhn-user = ""
     #rhn-pass = ""
     #subnet = "subnet-0515516e44579196b"
     subnets_cidr = ["10.164.28.0/24", "10.164.29.0/24"]
     #docker-token = ""
-    #ssh-user = "ec2-user"
+    ssh-user = "buzzworks"
     #cluster = "flexy-cluster"
   }
 }
-
 ## Port - Protocol Definition
 variable "ports" {
   type = map
@@ -84,7 +83,7 @@ variable "config" {
   )
   default     = {
     "app" = {
-        "type" = "t2.medium" ## Need an t3.large atleast
+        "type" = "e2-micro" ## Need an t3.large atleast
         "count" = 1 ## Need an 15 Instance and revision required
         "subnet" = "subnet-09d2e7ac9e5f64a42"
         "publicip" = false
@@ -113,15 +112,15 @@ variable "config" {
         "certificate_arn"   = "arn:aws:acm:ap-south-1:738583687880:certificate/cc61e151-436c-48c8-b35d-4ec11db0bfc2"
     },
     "db" = {
-      "type" = "t2.micro" ## Need an c5.xlarge as minimum
-      "count" = 0 ## Disable Ec2 Creation for DB. Using RDS DB
+      "type" = "e2-micro" ## Need an c5.xlarge as minimum
+      "count" = 1 ## Disable Ec2 Creation for DB. Using RDS DB
       "subnet" = "subnet-0515516e44579196b"
       "publicip" = false
       "loadbalancer" = 0 ## Disable DB Load balancer due to RDS DB
       "cidr" = "10.164.29.0/24"
       "volume" = {
           size = 10 ## Need to increase
-          vtype = "gp2" ## Need to change as gp3
+          vtype = "pd-standard" ## Need to change as 'pd-balanced' or higher
           iops = "100" ## Need to increase
           "delete_protect" = true
         }

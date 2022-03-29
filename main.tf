@@ -1,9 +1,8 @@
 provider "google" {
-    credentials = file("/home/buzzworks/.config/application_default_credentials.json")
-    project  = "evident-ethos-345407" 
+    credentials = file("/home/buzzworks/.config/flexy-345006-1be79e8f4abd.json")
+    project  = "flexy-345006" 
     region   = var.gconfig.region 
 }
-
 resource "google_compute_network" "vpc" {
   
   name                    = "flexydial-vpc"

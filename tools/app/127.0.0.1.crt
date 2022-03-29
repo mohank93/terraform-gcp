@@ -1,0 +1,131 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            93:19:44:73:74:17:29:62:78:57:58:11:23:87:32
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=IN, ST=Mumbai, L=Maharastra, O=Buzzworks PLD., OU=flexydial PLD., CN=Buzzworks CA Authority/emailAddress=help@flexydial.com
+        Validity
+            Not Before: Mar 12 17:54:12 2022 GMT
+            Not After : Mar 11 17:54:12 2027 GMT
+        Subject: C=IN, ST=Mumbai, L=Mumbai, O=Flexydial, OU=Solutions, CN=127.0.0.1/emailAddress=help@flexydial.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                RSA Public-Key: (4096 bit)
+                Modulus:
+                    00:ca:3c:55:5d:34:06:c8:c9:26:80:cc:14:68:bd:
+                    06:62:7e:1c:04:a0:13:98:b9:e4:34:46:48:a5:79:
+                    34:97:c6:7c:e7:17:75:21:f1:94:33:c9:0a:5b:e6:
+                    66:55:84:6a:be:eb:86:69:8b:6c:58:87:cc:3d:f7:
+                    e9:07:0c:0f:76:ef:3e:ca:e0:df:21:d4:6d:56:e7:
+                    50:c8:41:97:0e:7b:f0:92:e5:e6:97:35:0d:ce:fa:
+                    87:96:4e:48:a7:85:56:d3:42:63:a4:ae:2e:21:0d:
+                    b7:10:71:b1:8f:38:90:89:70:22:8a:9d:4f:18:d3:
+                    71:0a:39:75:41:13:dd:39:3b:79:b6:de:7f:ae:11:
+                    b2:97:46:67:4e:28:fe:d3:07:aa:1a:fe:ce:ff:4e:
+                    70:da:77:14:f8:a3:e3:e3:4d:b5:70:d2:9e:40:1e:
+                    81:8a:c2:8e:79:70:0e:f2:65:f2:8d:1f:0e:28:96:
+                    65:aa:8c:d7:f9:10:44:10:7f:55:d0:9e:c8:e2:8e:
+                    91:0d:2d:d7:6a:8e:31:e9:46:cb:dd:b6:83:32:d1:
+                    48:04:62:12:ab:82:f2:a1:01:0e:30:17:b9:95:52:
+                    38:ea:fe:4b:5d:be:dd:85:d7:4b:85:8c:11:96:12:
+                    f7:68:25:bf:c7:4d:0c:9a:2a:07:83:e6:b7:c3:31:
+                    57:f2:3f:fb:b9:e2:f5:84:14:2d:1f:41:71:5c:06:
+                    d3:b0:62:d6:1e:61:14:cf:c6:30:9f:e7:dd:81:4c:
+                    e1:e3:5c:9e:c4:3e:47:f3:88:bd:9e:e0:23:91:36:
+                    18:7a:d8:95:01:df:8d:8b:cf:57:75:ec:2d:57:14:
+                    e8:a6:ed:8c:a3:05:48:52:54:4a:95:56:0c:7f:64:
+                    c6:5b:6f:98:46:24:b3:87:b7:18:bf:0d:a9:22:cd:
+                    23:70:03:ec:dc:2f:db:70:56:95:73:4e:8a:2d:33:
+                    cc:c1:ec:72:4c:54:89:5f:39:85:8d:f9:c1:63:59:
+                    51:65:e3:05:d0:66:2f:14:3b:a6:40:da:f2:5b:d4:
+                    3b:52:89:9c:f6:0f:08:b3:e0:88:25:3a:3e:5d:1e:
+                    d9:6d:2d:70:0d:bc:a9:f1:11:93:47:ac:53:ae:27:
+                    7a:4f:56:a7:88:d5:9c:bd:bd:b8:c5:9f:ef:1e:31:
+                    a6:3e:ff:cf:02:af:a5:9b:40:d1:5e:ab:9c:2a:99:
+                    61:31:30:7e:6c:d5:3d:da:d1:2b:06:9c:8e:ea:b1:
+                    29:37:c4:60:7e:e5:15:8a:b1:41:31:5c:d5:0b:95:
+                    cf:b0:47:e6:36:46:23:e7:33:8b:8a:f6:b2:33:c7:
+                    81:5f:d9:0b:24:74:3f:ce:56:dc:c8:83:fa:ae:4c:
+                    d1:65:55
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            X509v3 Subject Key Identifier: 
+                87:9B:F8:E3:79:A5:FA:52:5A:EA:E6:F8:12:B8:3E:11:EB:4A:32:93
+            X509v3 Authority Key Identifier: 
+                keyid:A8:7B:46:27:AE:7F:4E:3D:7B:C7:73:CD:FC:8E:FD:CF:27:DD:4F:E9
+
+            X509v3 Key Usage: 
+                Digital Signature, Non Repudiation, Key Encipherment, Data Encipherment
+            X509v3 Subject Alternative Name: 
+                DNS:*.flexydial.com, DNS:*.buzzworks.com, DNS:*.local, DNS:*.localhost, DNS:*.localdomain, IP Address:127.0.0.1, IP Address:127.0.0.1, IP Address:0:0:0:0:0:0:0:1
+    Signature Algorithm: sha256WithRSAEncryption
+         56:0f:95:b2:9b:b4:66:32:5f:30:54:dd:7c:69:1f:cc:9b:26:
+         17:d1:8b:23:39:46:36:a8:20:71:84:a7:4d:32:45:1a:83:1a:
+         0b:fe:fe:2d:5a:c0:3f:11:e2:2a:15:6f:80:13:06:62:58:e5:
+         64:c0:99:f2:72:c1:b6:cf:03:f3:73:ca:89:ea:09:84:43:af:
+         84:38:35:15:e1:74:70:47:a5:a4:0c:ff:c0:17:3c:61:c1:d9:
+         bd:7c:12:d7:c3:a0:8d:d0:59:a2:31:20:82:cb:4b:42:b5:de:
+         e7:14:1f:c6:b4:6b:2f:4e:ff:8b:ae:0e:53:30:6e:c6:74:ad:
+         98:85:4c:e2:2f:a3:92:2a:d3:21:95:51:f4:80:c3:4a:69:7f:
+         df:54:b1:21:3c:14:56:f2:c0:87:eb:2b:7b:fd:4d:4b:b5:d9:
+         59:da:8e:18:c9:c1:7e:bf:7f:be:12:9d:7a:26:8a:7b:18:fb:
+         86:26:c6:18:03:b2:2b:05:75:5c:04:05:e6:2e:21:3f:23:a6:
+         3e:02:e8:88:06:c0:94:47:f1:15:64:6f:7a:22:73:69:0c:a6:
+         f6:85:d2:25:d4:7f:bc:e9:4d:ef:8a:04:d9:e4:5b:26:6e:21:
+         4f:03:ea:52:b4:a0:78:1d:c3:02:0d:92:91:db:d8:60:c9:00:
+         8d:e9:ef:89:de:a8:f0:f2:e2:45:54:63:4f:44:f8:4b:93:80:
+         ae:e4:76:c6:3e:fa:47:17:40:6f:77:5e:17:cc:62:c1:70:f0:
+         de:cd:72:48:42:67:5a:36:0f:44:00:2c:3f:bb:4f:59:d1:ca:
+         8b:44:15:d5:3f:87:0d:9d:9f:dd:74:97:18:72:52:29:1c:84:
+         77:0a:8e:c0:e5:f5:94:c8:b5:bf:16:2e:60:39:90:26:e7:ab:
+         2c:c9:a8:16:b9:55:06:93:a2:4a:cb:93:26:39:54:1a:d4:07:
+         ed:76:94:1e:49:a2:75:e8:61:6e:ad:e8:52:3b:2b:f9:27:cf:
+         92:e2:67:b6:c7:98:f3:b0:3e:7e:66:72:b3:30:0a:f3:c6:2b:
+         92:94:92:d4:c8:47:6b:06:14:e1:67:2d:d9:9a:84:a9:24:0b:
+         80:7c:08:8b:4e:87:60:fb:d7:d5:01:9e:d8:da:33:93:d2:af:
+         a2:61:68:af:ee:db:82:7f:5e:b2:ae:5c:6d:5f:0e:b0:62:0f:
+         cc:c0:0d:2a:c3:4f:d9:b1:56:38:9d:10:0b:3d:c4:a4:7d:98:
+         f0:b2:6c:b8:d7:a9:45:62:d6:5e:88:dc:56:33:09:a8:e3:b0:
+         1f:f3:4e:95:8f:2c:45:4e:d8:b6:dc:44:0d:45:26:46:03:78:
+         1a:e7:f1:5a:ad:9f:70:bb
+-----BEGIN CERTIFICATE-----
+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
+n3C7
+-----END CERTIFICATE-----
